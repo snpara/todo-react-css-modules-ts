@@ -2,6 +2,8 @@ import { SetStateAction, useState } from "react";
 
 import Button from "../../UI/Button/Button";
 
+import "./TodoInput.css";
+
 interface TodoInputProps {
   onAddTodo: (enteredText: string) => void;
 }
