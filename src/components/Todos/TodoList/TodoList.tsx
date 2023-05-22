@@ -1,5 +1,4 @@
 import TodoItem from "../TodoItem/TodoItem";
-import { TodoItemProps } from "../TodoItem/TodoItem";
 
 import "./TodoList.css";
 

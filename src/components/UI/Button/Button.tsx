@@ -1,5 +1,5 @@
 import { HTMLAttributes, ReactNode } from "react";
-import "./Button.css";
+import styles from "./Button.module.css";
 
 interface ButtonProps {
   type: "button" | "submit" | "reset" | undefined;
@@ -10,7 +10,7 @@ const Button: React.FC<ButtonProps & HTMLAttributes<HTMLButtonElement>> = (
   props
 ) => {
   return (
-    <button type={props.type} className="button">
+    <button type={props.type} className={styles.button}>
       {props.children}
     </button>
   );
